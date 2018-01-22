@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.preload{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(113, 48, 142, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.logo{
+  background-image: url(../assets/images/logo-white.png);
+  width: 40vw;
+  height: 20vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: 150px auto;
+}
+
+@keyframes fadeout {
+  from {opacity: 1;}
+  to {opacity: 0;}
+/
