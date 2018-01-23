@@ -3,14 +3,14 @@
   padding: 0;
 }
 
-.preload{
+#cont-carga{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
   width: 100vw;
   height: 100vh;
   background-color: rgba(113, 48, 142, 0.9);
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
 }
 
 .logo{
@@ -23,7 +23,12 @@
   margin: 150px auto;
 }
 
-@keyframes fadeout {
-  from {opacity: 1;}
-  to {opacity: 0;}
-/
+.container{
+  background-image: url(../assets/images/lyft2.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 1000;
+}
